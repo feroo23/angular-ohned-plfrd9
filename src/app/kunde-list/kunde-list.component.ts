@@ -7,13 +7,14 @@ import { Kunde } from '../model/kunde';
   styleUrls: ['./kunde-list.component.css']
 })
 export class KundeListComponent implements OnInit {
+  
 [x: string]: any;
 
   constructor() { }
 
   ngOnInit() {
   }
-
+/*
   
   getKunden():Kunde[] {
     return this.pizzaService.kunden
@@ -39,6 +40,7 @@ export class KundeListComponent implements OnInit {
       kunden.push(kunde);
     }
   }
+  */
 
 
 
