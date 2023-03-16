@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Kunde } from '../model/kunde';
+import { Kunde } from '../../model/kunde';
 
 @Component({
   selector: 'app-kunde-list',

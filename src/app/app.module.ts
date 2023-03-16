@@ -5,15 +5,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { PizzaListComponent } from './pizza-list/pizza-list.component';
-import { KundeListComponent } from './kunde-list/kunde-list.component';
-import { MenuComponent } from './menu/menu.component';
-import { BestellungComponent } from './bestellung/bestellung.component';
+import { PizzaListComponent } from './Component/pizza-list/pizza-list.component';
+import { KundeListComponent } from './Component/kunde-list/kunde-list.component';
+import { MenuComponent } from './Component/menu/menu.component';
+import { BestellungComponent } from './Component/bestellung/bestellung.component';
 import { Router, RouterModule, Routes } from '@angular/router';
-import { KundeComponent } from './kunde/kunde.component';
+import { KundeComponent } from './Component/kunde/kunde.component';
 import { PizzaService } from './service/pizza.service';
-import { PizzaComponent } from './pizza/pizza.component';
-import { BestellListComponent } from './bestell-list/bestell-list.component';
+import { PizzaComponent } from './Component/pizza/pizza.component';
+import { BestellListComponent } from './Component/bestell-list/bestell-list.component';
 
 
 

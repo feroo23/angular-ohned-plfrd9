@@ -1,6 +1,6 @@
 import { HttpRequest } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { Pizza } from '../model/pizza';
+import { Pizza } from '../../model/pizza';
 
 @Component({
   selector: 'app-pizza-list',
