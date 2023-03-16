@@ -13,6 +13,7 @@ import { Router, RouterModule, Routes } from '@angular/router';
 import { KundeComponent } from './kunde/kunde.component';
 import { PizzaService } from './service/pizza.service';
 import { PizzaComponent } from './pizza/pizza.component';
+import { BestellListComponent } from './bestell-list/bestell-list.component';
 
 
 
@@ -41,7 +42,8 @@ const appRoute: Routes= [
     KundeComponent, 
     PizzaListComponent, 
     PizzaComponent,
-    PizzaComponent
+    PizzaComponent,
+    BestellListComponent
   ],
   bootstrap:    [ AppComponent ],
   providers: [PizzaService,
