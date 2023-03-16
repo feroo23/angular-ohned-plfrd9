@@ -43,7 +43,7 @@ const appRoute: Routes= [
     PizzaListComponent, 
     PizzaComponent,
     PizzaComponent,
-    BestellListComponent
+    bestellListComponent
   ],
   bootstrap:    [ AppComponent ],
   providers: [PizzaService,
