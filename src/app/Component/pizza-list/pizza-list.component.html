@@ -8,13 +8,14 @@
 
 <div class="card">
 <div class="content">
-  <h3 class="header">Pizza name ?!</h3>
+  <ng-container *ngFor="let p of pizza">
+  <h3 class="header">{{p.name}}</h3>
 </div>
 <div class="blurring active dimmable image">
   <div class="ui dimmer">
     <div class="content">
       <div class="center">
-        <p> orem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam</p>
+        <p>{{p.beschreibung}}</p>
           <div class="ui inverted button" (click)='openpop()'  (blur)='closepop()'>Mehr Info</div>
       </div>
     </div>
@@ -28,6 +29,7 @@
 <div class="content">
 <a class="header" >Preis?!</a>
 </div>
+</ng-container>
 <div class="ui styled accordion">
 <div class="title">
   <i class="dropdown icon"></i>
